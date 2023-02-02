@@ -1,0 +1,166 @@
+body {
+    background: color #716d95;
+    margin: 0px;
+    text-align: center;
+}
+.img {
+    display:block
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.img-arch {
+    height: 100%; width: 100%; object-fit: contain
+}
+
+
+.top1 {
+    
+        background-color: red;
+            
+        background-image: linear-gradient(45deg, #CC5500, #ef9415,);
+          
+        background-size: 100%;
+        background-repeat: repeat;
+    
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        font-family: 'Roboto', cursive;
+
+      }
+      
+
+
+h2{
+    font-family: 'Roboto', Arial;
+    color: #2e347f
+    font-size: 2em;
+}
+
+h3{
+    font-family: 'Itim', cursive;
+    color:#754571
+    font-size: 2em;
+}
+a{
+     text-decoration: none;
+     color: green;
+ 
+    }
+.row{
+    width: 50%;
+    margin: 0 auto;
+}
+.column{
+    display: inline-block;
+}
+.left{
+    float:left;
+    width: 40%;
+    list-style-type: style type circle;
+    text-align: center;
+    /* background-color: black; */
+    height: 200px;
+
+}
+.right{
+    float:right;
+    width: 60%;
+    /* background-color: yellow; */
+    height: 200px;
+}
+.skill_left{
+    float:left;
+    width: 40%;
+    list-style-type: style type circle;
+    text-align: center;
+    /* background-color: black; */
+    height: 200px;
+}
+.skill_right{
+    width: 50%;;
+    /* float:left; */
+    height:100px;
+}
+.clear{
+    clear:both;
+}
+ul{
+    list-style: none;
+}
+hr{
+    border-top: dotted #754571 8px;
+    border-bottom: none;
+    width: 200px;
+    float: none;
+}
+/**
+* Comtact Page Styling
+*/
+
+.contact_name  {
+    text-align: center;
+    
+}
+
+.contact_address {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 1px 2px 3px 0 black;
+    width: 40%;
+    margin: 0 auto;
+    height: 400px;
+    
+}
+
+.input_name {
+    padding-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+#input_name {
+    width: 300px;
+    height: 30px;
+    margin-left: 140px;
+}
+
+#message{
+    width: 300px;
+    height: 60px;
+    margin-left: 140px;
+}
+
+.contact_button:hover {
+    background-color: #555;
+    cursor: pointer;
+
+}
+
+.contact_button {
+    border-radius: 15px;
+    background-color: #754571;
+    border: 2px solid #efe7fb;
+    padding: 16px 24px;
+    margin-top: 16px;
+    margin-left: 240px;
+    
+
+}
+
+.contact_address hr {
+    margin: 50px auto 50px auto ;
+    width: 550px;
+    position: relative;
+    border: 3px dashed black;
+
+    
+}
+
+
